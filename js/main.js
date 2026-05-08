@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('I love you, Sherly.').split('');
+        const titles = ('For Ayip').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "selamat hari kasih sayang Sherly, terima kasih ya sudah menjaga ku, terima kasih karena sudah berusaha keras untuk ku, aku mencintai mu selalu.";
+            subtitle.innerText = "i can’t give you flowers irl, so this is the only way i can do it.";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
